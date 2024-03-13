@@ -1,0 +1,9 @@
+
+
+<h1>Coffee Trucks</h1>
+<ul>
+{% for truck in coffee_trucks %}
+<li>{{ truck.name }} - {{ truck.location }} - {{ truck.hours_of_operation }}</li>
+{% endfor %}
+</ul>
+
